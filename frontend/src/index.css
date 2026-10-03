@@ -1,4 +1,9 @@
-/* @import "tailwindcss"; */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@plugin "daisyui";
+
+body{
+  background-image: url(../public/bg.png);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
